@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HearMe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>HearMe</h1>
+
+        <p class="subtitle">
+            Emergency Communication Assistant
+        </p>
+
+        <div class="buttons">
+
+            <button onclick="speakMessage('I need help immediately')">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                HELP
+
+            </button>
+
+            <button onclick="speakMessage('Call ambulance immediately')">
+
+                <i class="fa-solid fa-truck-medical"></i>
+
+                AMBULANCE
+
+            </button>
+
+            <button onclick="speakMessage('I cannot speak')">
+
+                <i class="fa-solid fa-volume-xmark"></i>
+
+                I CAN'T SPEAK
+
+            </button>
+
+            <button onclick="shareLocation()">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                SHARE LOCATION
+
+            </button>
+
+        </div>
+
+        <div id="alertBox">
+
+            Emergency messages appear here
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
