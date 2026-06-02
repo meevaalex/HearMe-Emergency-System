@@ -6,7 +6,7 @@ It helps users quickly send voice alerts and share their live location using bro
 
 ---
 
-## 📌 Features
+##  Features
 
 - Voice alerts for emergency messages (Help, Ambulance, I can’t speak)
 - Text-to-speech using browser
@@ -15,7 +15,7 @@ It helps users quickly send voice alerts and share their live location using bro
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML
 - CSS
@@ -25,13 +25,13 @@ It helps users quickly send voice alerts and share their live location using bro
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project is designed to improve emergency communication speed using simple web technologies. It allows users to send quick voice alerts and share their location when they are unable to speak or react normally.
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 - Open the application in a browser
 - Click any emergency button
@@ -40,6 +40,6 @@ This project is designed to improve emergency communication speed using simple w
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Meeva Alex
